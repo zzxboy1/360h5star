@@ -49,7 +49,9 @@ dev_server（需要node.js）启动PC端的服务器。
 [手机手势密码demo](https://zzxboy1.github.io/360h5star/dist/)
 
 请打开谷歌浏览器的移动端开发模式查看！！O(∩_∩)O~~
-----------
+
+
+
 
 # 项目布局
 ```
