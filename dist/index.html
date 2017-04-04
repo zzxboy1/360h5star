@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>手势密码</title>
+	 <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<div class="main">
+		<header>手势密码</header>
+		<div class="canvas-wrapper">
+			<canvas id="canvas"></canvas>
+		</div>
+		<p class="info">请输入手势密码</p>
+		<div class="radio-wrapper">
+			<div class="group">
+				<label><input type="radio" class="radio set" name="password" checked="checked"><span>设置密码</span></label>
+			</div>
+			<div class="group">
+				<label><input type="radio" class="radio validate" name="password"><span>验证密码</span></label>
+			</div>
+		</div>
+	</div>
+	<script src="./js/page.js"></script>
+	<script>
+		window.onload = function () {
+			main();
+		};
+	</script>
+</body>
+</html>
