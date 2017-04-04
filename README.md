@@ -54,10 +54,10 @@ dev_server（需要node.js）启动PC端的服务器。
 		|--	style.css  	    // 样式文件
 	|--  js 文件夹 
 		|--	page.js 	    //  js文件
-	|--  index.html  	          // 页面文件
-|--	dev_server.js                   // 服务器配置
-|--	package.json                    // 项目依赖配置文件
-|--	README.md                       // 说明
+	|--  index.html  	            // 页面文件
+|--	dev_server.js                       // 服务器配置
+|--	package.json                        // 项目依赖配置文件
+|--	README.md                           // 说明
 
 ```
 
